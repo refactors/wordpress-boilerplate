@@ -1,6 +1,6 @@
 <?php
 
-if (!function_exists("refactors_HTMLCompressor")) {
+if ( ! function_exists( "refactors_HTMLCompressor" ) ) {
 	function refactors_HTMLCompressor( $buffer ) {
 		$buffer = preg_replace( '/<!--([^\[|(<!)].*)/', '', $buffer );
 		$buffer = preg_replace( '/(?<!\S)\/\/\s*[^\r\n]*/', '', $buffer );

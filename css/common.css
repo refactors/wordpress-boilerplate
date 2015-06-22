@@ -35,9 +35,9 @@
 }
 
 .refactors-shadowed {
-  border-radius: 0.313em;
-  padding: 0.313em;
-  background: rgba(0,0,0,0.03)
+    border-radius: 0.313em;
+    padding: 0.313em;
+    background: rgba(0, 0, 0, 0.03)
 }
 
 /* HEADER */
@@ -63,7 +63,7 @@
 }
 
 .refactors-widget-header-text,
-.refactors-widget-header-link  {
+.refactors-widget-header-link {
     display: inline-block;
     vertical-align: middle;
     line-height: 1.5em;
