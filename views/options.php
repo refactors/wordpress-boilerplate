@@ -15,7 +15,7 @@
 	       name="<?php echo $this->get_field_name( 'username' ); ?>"
 	       type="text"
 	       style="width: 70%"
-	       placeholder="User id. (e.g. ur0840624)"
+	       placeholder="Your Something Username"
 	       value="<?php echo $username ?>"/>
 	<?php if ( ! empty( $username ) ) { ?>
 		<a href='http://someURL/<?php echo $username ?>' target='_blank'>
