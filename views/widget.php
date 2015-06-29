@@ -18,6 +18,8 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
+
+/** @todo: REPLACE NAME WITH SOMETHING */
 ?>
 <aside class="widget">
 
@@ -25,23 +27,23 @@
 		<?php echo $before_title . $config["title"] . $after_title; ?>
 	<?php endif; ?>
 
-	<div class="refactors-widget" id="<?php echo $this->id; ?>">
+	<div class="name-widget" id="<?php echo $this->id; ?>">
 
 		<?php if ( ! isset( $config["hideBuiltInHeader"] ) || ! $config["hideBuiltInHeader"] == "on" ) : ?>
-			<header class="refactors-widget-header">
-				<img class="refactors-widget-company-logo"
+			<header class="name-widget-header">
+				<img class="name-widget-company-logo"
 				     src="https://d3keuzeb2crhkn.cloudfront.net/hackerrank/assets/brand/h_mark_sm.png"/>
 
-				<div class="refactors-widget-header-text">
-					<a class="refactors-widget-header-link" target="_blank" href="https://someURL">Username</a>
+				<div class="name-widget-header-text">
+					<a class="name-widget-header-link" target="_blank" href="https://someURL">Username</a>
 					<span class="separator"> |</span>
 					<span>Service</span>
 				</div>
 			</header>
 		<?php endif; ?>
 
-		<div class="refactors-widget-content">
-			<div class="refactors-shadowed">
+		<div class="name-widget-content">
+			<div class="name-shadowed">
 				This text is inside a shadowed box.
 			</div>
 
